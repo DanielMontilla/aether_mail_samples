@@ -1,0 +1,3 @@
+<div cdkDropList class="my-list" (cdkDropListDropped)="drop($event)">
+  <div cdkDrag class="my-list-item" *ngFor="let word of words"> {{ word }} </div>
+</div>
