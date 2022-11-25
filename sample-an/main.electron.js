@@ -22,7 +22,6 @@ function createWindow () {
     win.loadFile('dist/sample-an/index.html');
   }
 
-
   // Emitted when the window is closed.
   win.on('closed', () => {
     // Dereference the window object, usually you would store windows

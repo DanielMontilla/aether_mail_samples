@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.word-repo {
+  width: 100%;
+}
+
+.word {
+  font-size: 20px;
+  padding: 4px 6px;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 4px;
+  display: block;
+  user-select: none;
+}
+
+.sentence-builder {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 48px;
+}
