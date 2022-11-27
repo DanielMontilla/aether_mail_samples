@@ -1,0 +1,14 @@
+.word {
+  padding: 6px 6px;
+  display: inline-block;
+  background-color: rgb(77, 77, 77);
+  margin: 4px;
+  border-radius: 4px;
+  line-height: 1;
+  font-size: 20px;
+  user-select: none;
+}
+
+.is-dragging {
+  opacity: 0;
+}
